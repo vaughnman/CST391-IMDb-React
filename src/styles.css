@@ -1,0 +1,103 @@
+* {
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+
+    text-align: center;
+    margin: auto;    
+}
+
+label
+{
+    margin: 4px;
+}
+
+h1
+{
+    margin: 1rem;
+}
+
+input
+{
+    border-radius: 5px;
+    margin: 4px;
+}
+
+button
+{
+    font-size: medium;
+    font-weight: 300;
+    
+    border-radius: 5px;
+    border-color: #1DB954;
+    border-width: 2px;
+    border-style: solid;
+
+    margin: 5px;
+    padding: 5px 10px;
+    
+    color: lightgray;
+}
+
+button:hover
+{
+    background-color: #083016;
+}
+
+.column
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p {
+    margin: 5px;
+    font-weight: 200;
+}
+
+.page
+{
+    display: flex;
+    flex-direction: column;
+    max-width: 1024px;
+}
+
+.card {
+    padding: 1rem;
+    margin: 1rem;
+    box-shadow: 0 4px 8px 8px rgba(27, 155, 10, 0.2);
+    width: 1024px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.deleteButton
+{
+    font-size: medium;
+    font-weight: 300;
+    
+    border-radius: 5px;
+    border-color: red;
+    border-width: 2px;
+    border-style: solid;
+    align-self: center;
+
+    margin: 5px;
+    padding: 5px 10px;
+    
+    color: lightgray;
+}
+
+.deleteButton:hover
+{
+    background-color: #083016;
+}
