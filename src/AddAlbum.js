@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useNavigate, useParams } from "../node_modules/react-router-dom/dist/index";
+import { useNavigate, useParams } from "react-router-dom";
 import { HomeButton } from "./HomeButton";
 import { ImdbService } from "./ImdbService";
 

@@ -1,8 +1,8 @@
-import axios from '../node_modules/axios/index';
+import axios from 'axios';
 
 /** Service for interacting with the IMDb Rest API */
 export class ImdbService {
-  url = "http://localhost:8000";
+  url = "https://express-internetmusicdatabase.azurewebsites.net";
   
   getAlbum(albumId) {
     return axios.get(this.url + '/album/get?albumId=' + albumId);

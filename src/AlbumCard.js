@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useNavigate } from "../node_modules/react-router-dom/dist/index"
+import { useNavigate } from "react-router-dom"
 import { ImdbService } from "./ImdbService";
 
 /** Card for displaying album info */

@@ -1,4 +1,4 @@
-import { useNavigate } from "../node_modules/react-router-dom/dist/index";
+import { useNavigate } from "react-router-dom";
 
 /** Home button */
 export const HomeButton = () =>
